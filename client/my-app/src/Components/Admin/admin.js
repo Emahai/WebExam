@@ -127,9 +127,9 @@ export default function Admin() {
       </Box>
       <br />
       <Container>
- <Typography variant='h6' gutterBottom>
-           Employee List
-  </Typography>
+        <Typography variant='h6' gutterBottom>
+          Employee List
+        </Typography>
 
         <br />
 
@@ -146,32 +146,38 @@ export default function Admin() {
 
         <Grid container spacing={2}>
           <Grid item xs={3}>
-          <Button variant='contained' color='primary'>
-          {' '}
-          Activate Employees{' '}
-        </Button>
+            <Button variant='contained' color='primary'>
+              {' '}
+              Activate Employees{' '}
+            </Button>
           </Grid>
           <Grid item xs={3}>
-          <Button variant='contained' color='secondary'>
-          {' '}
-          Deactivate employee{' '}
-        </Button>
+            <Button variant='contained' color='primary'>
+              {' '}
+              Deactivate employee{' '}
+            </Button>
           </Grid>
           <Grid item xs={3}>
-          <Button variant='contained' color='secondary'>
-          {' '}
-          Update Employee Info{' '}
-        </Button>
+            <Button variant='contained' color='secondary'>
+              {' '}
+              Update Employee Info{' '}
+            </Button>
           </Grid>
           <Grid item xs={3}>
-          <Button variant='contained' color='secondary'>
-          {' '}
-          Delete Employee Info{' '}
-        </Button>
+            <Button variant='contained' color='secondary'>
+              {' '}
+              Delete Employee Info{' '}
+            </Button>
           </Grid>
         </Grid>
       </Container>
       <br />
+      <Grid item xs={3}>
+            <Button variant='contained' color='primary'>
+              {' '}
+              Add New Employee Info{' '}
+            </Button>
+          </Grid>
       <br />
       <br />
     </>
